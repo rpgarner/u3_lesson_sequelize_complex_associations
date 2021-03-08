@@ -5,8 +5,5 @@
   "license": "MIT",
   "scripts": {
     "setup": "cd medium_clone && npm run setup && cd ../instagram_clone && npm run setup"
-  },
-  "devDependencies": {
-    "faker": "^5.4.0"
   }
 }

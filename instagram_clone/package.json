@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "setup": "npm install && sequelize db:create && sequelize db:migrate"
+    "setup": "npm install && sequelize db:create && sequelize db:migrate && sequelize db:seed:all"
+  },
+  "devDependencies": {
+    "faker": "^5.4.0"
   },
   "dependencies": {
     "pg": "^8.5.1",
